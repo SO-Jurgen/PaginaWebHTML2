@@ -1,0 +1,172 @@
+:root {
+    --color-primario: #1b2838;
+    --color-secundario: #2a475e;
+    --color-terciario: #16202d;
+
+}
+
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('fuentes/Helvetica.ttf');
+}
+
+
+body {
+    font-family: MotivaSansRegular, sans-serif;
+    background-color: var(--color-primario);
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-bottom: 4px solid var(--color-secundario);
+}
+
+
+header img {
+    border-radius: 70px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    font-size: 120%;
+
+}
+
+
+.icon {
+    fill: white;
+    background-color: cadetblue;
+    position: absolute;
+    width: 18px;
+    right: 35px;
+}
+
+
+.busqueda {
+    padding: 3px;
+    background-color: var(--color-secundario);
+    border: 5px solid var(--color-terciario);
+}
+
+.hero {
+    background-image: url("imagenes/steam_store.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+
+
+.card {
+    border: 1px solid var(--color-secundario);
+    padding: 15px;
+    width: 100%;
+    background-color: var(--color-terciario);
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#servicios {
+    padding: 20px;
+}
+
+
+.servicios-container {
+    display: flex;
+    gap: 20px;
+}
+
+
+.servicios-container article {
+    text-align: center;
+    width: 100%;
+}
+
+
+.servicios-container img {
+    width: 80px;
+    height: 80px;
+}
+
+
+#contacto {
+    padding: 20px;
+}
+
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#contacto input,
+#contacto textarea {
+    padding: 10px;
+    background-color: var(--color-secundario);
+}
+
+
+#info {
+    padding: 20px;
+}
+
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info-items {
+    display: flex;
+    gap: 30px;
+}
+
+
+.info-items article {
+    text-align: center;
+}
+
+
+.info-items img {
+    width: 80px;
+    height: 80px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid var(--color-secundario);
+}
+
